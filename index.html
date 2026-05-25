@@ -29,7 +29,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Atma:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -59,89 +59,32 @@
     <main>
       <section class="hero hero-home">
         <div class="hero-copy">
-          <p class="eyebrow">Wall joy for tiny worlds</p>
-          <h1>Whimsical walls that actually pop.</h1>
+          <h1 class="hero-title">Whimsical walls that pop.</h1>
           <p>
-            Bright wall decals and playful prints for nurseries, bedrooms and playrooms. Made for little
-            personalities, not grey show homes.
+            Bright wall decals and playful prints for nurseries, bedrooms and playrooms.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="wall-decals.html">Shop wall decals</a>
             <a class="button secondary" href="prints.html">Shop prints</a>
           </div>
         </div>
-        <div class="hero-stage" aria-label="Whimsical nursery wall illustration">
-          <span class="blob blob-coral"></span>
-          <span class="blob blob-mustard"></span>
-          <span class="blob blob-teal"></span>
-          <div class="wall-card rainbow-card">
-            <span class="rainbow-band"></span>
-            <span class="rainbow-band"></span>
-            <span class="rainbow-band"></span>
-            <span class="rainbow-band"></span>
-          </div>
-          <div class="wall-card print-card">
-            <span class="print-sun"></span>
-            <span class="print-star"></span>
-          </div>
-          <div class="wall-card decal-card">
-            <span class="decal-cloud"></span>
-            <span class="decal-star star-one"></span>
-            <span class="decal-star star-two"></span>
-          </div>
-        </div>
-      </section>
-
-      <section class="product-ribbon" aria-label="Product categories">
-        <a href="wall-decals.html">
-          <span>Wall decals</span>
-          <strong>Peel, stick, smile</strong>
-        </a>
-        <a href="prints.html">
-          <span>Prints</span>
-          <strong>Colour for frames</strong>
-        </a>
-      </section>
-
-      <section class="section intro-split">
-        <div>
-          <h2>Built around products you can update yourself.</h2>
-        </div>
-        <div>
-          <p>
-            Product names, prices, descriptions, Etsy links and image paths live in
-            <code>data/products.json</code>. Put new product pictures in <code>assets/products</code>,
-            update the JSON file, and the storefront pages update automatically.
-          </p>
-        </div>
-      </section>
-
-      <section class="section colour-story">
-        <div class="section-heading">
-          <h2>Colour direction</h2>
-          <p>
-            I would use coral as the primary action colour, mustard as the secondary highlight, and teal as
-            the friendly balancing colour. Blue and pink can stay as supporting accents from the logo.
-          </p>
-        </div>
-        <div class="palette-row" aria-label="Brand colour palette">
-          <span style="--swatch: #ff6f61">Primary coral</span>
-          <span style="--swatch: #ffad14">Mustard</span>
-          <span style="--swatch: #72c4bd">Teal</span>
-          <span style="--swatch: #5c8fb8">Blue</span>
-          <span style="--swatch: #ffa1a7">Pink</span>
+        <div class="hero-stage hero-photo" aria-label="Whimsical bedroom wall filled with colourful wall decals">
+          <img src="assets/products/Wall 1.png" alt="Colourful wall decals displayed in a playful children's bedroom" />
         </div>
       </section>
 
       <section class="section featured-products">
         <div class="section-heading">
           <h2>Featured wonders</h2>
-          <p>Sample products for now. Swap the images, descriptions, prices and Etsy links in the data file.</p>
         </div>
         <div class="product-grid" data-products data-featured="true"></div>
       </section>
 
       <section class="section shop-paths">
+        <div class="section-heading shop-paths-heading">
+          <h2>Shop by product type</h2>
+          <p>Start with peel-and-stick decals for instant colour, or choose prints for framed little moments.</p>
+        </div>
         <article>
           <h2>Wall decals</h2>
           <p>For colourful feature walls, name corners, playroom shapes and removable room magic.</p>
