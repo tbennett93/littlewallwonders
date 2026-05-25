@@ -1,46 +1,3 @@
-const PRODUCTS_FALLBACK = [
-  {
-    id: "rainbow-name-decal",
-    category: "wall-decals",
-    title: "Rainbow Name Decal",
-    description: "A bright peel-and-stick rainbow design for nursery doors, cot corners and bedroom walls.",
-    price: "From \u00a312.00",
-    image: "assets/products/rainbow-name-decal.svg",
-    etsyUrl: "https://www.etsy.com/uk/shop/littlewallwondersuk",
-    featured: true
-  },
-  {
-    id: "woodland-wall-set",
-    category: "wall-decals",
-    title: "Woodland Wall Set",
-    description: "Playful trees, stars and mushrooms for a colourful woodland wall without muted nursery grey.",
-    price: "From \u00a316.00",
-    image: "assets/products/woodland-wall-set.svg",
-    etsyUrl: "https://www.etsy.com/uk/shop/littlewallwondersuk",
-    featured: true
-  },
-  {
-    id: "sunshine-alphabet-print",
-    category: "prints",
-    title: "Sunshine Alphabet Print",
-    description: "A cheerful alphabet print with bright shapes, warm colour and a clean professional finish.",
-    price: "From \u00a38.00",
-    image: "assets/products/sunshine-alphabet-print.svg",
-    etsyUrl: "https://www.etsy.com/uk/shop/littlewallwondersuk",
-    featured: true
-  },
-  {
-    id: "playroom-shapes-print",
-    category: "prints",
-    title: "Playroom Shapes Print",
-    description: "A bold geometric print for playrooms, gallery walls and little corners that need colour.",
-    price: "From \u00a38.00",
-    image: "assets/products/playroom-shapes-print.svg",
-    etsyUrl: "https://www.etsy.com/uk/shop/littlewallwondersuk",
-    featured: false
-  }
-];
-
 const year = document.querySelector("[data-year]");
 
 if (year) {
@@ -77,16 +34,12 @@ function productCard(product) {
 }
 
 async function getProducts() {
-  try {
-    const response = await fetch("data/products.json", { cache: "no-store" });
-    if (!response.ok) {
-      throw new Error("Product data request failed");
-    }
-    return await response.json();
-  } catch {
-    return PRODUCTS_FALLBACK;
-  }
+const response = await fetch("data/products.json", { cache: "no-store" });
+if (!response.ok) {
+  throw new Error("Product data request failed");
 }
+return await response.json();
+} 
 
 async function renderProducts() {
   const targets = document.querySelectorAll("[data-products]");
