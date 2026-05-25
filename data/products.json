@@ -4,7 +4,7 @@
     "category": "wall-decals",
     "title": "Doodle Sticker Pack",
     "description": "A bright peel-and-stick sticker pack for any wall.",
-    "price": "\u00a326.00",
+    "price": "From £26.00",
     "image": "assets/products/wall 1.png",
     "etsyUrl": "https://www.etsy.com/uk/shop/littlewallwondersuk",
     "featured": true
@@ -14,29 +14,29 @@
     "category": "wall-decals",
     "title": "Woodland Wall Set",
     "description": "Playful trees, stars and mushrooms for a colourful woodland wall without muted nursery grey.",
-    "price": "From \u00a316.00",
+    "price": "From £16.00",
     "image": "assets/products/woodland-wall-set.svg",
     "etsyUrl": "https://www.etsy.com/uk/shop/littlewallwondersuk",
-    "featured": true
-  },
-  {
-    "id": "sunshine-alphabet-print",
-    "category": "prints",
-    "title": "Sunshine Alphabet Print",
-    "description": "A cheerful alphabet print with bright shapes, warm colour and a clean professional finish.",
-    "price": "From \u00a38.00",
-    "image": "assets/products/sunshine-alphabet-print.svg",
-    "etsyUrl": "https://www.etsy.com/uk/shop/littlewallwondersuk",
-    "featured": true
-  },
-  {
-    "id": "playroom-shapes-print",
-    "category": "prints",
-    "title": "Playroom Shapes Print",
-    "description": "A bold geometric print for playrooms, gallery walls and little corners that need colour.",
-    "price": "From \u00a38.00",
-    "image": "assets/products/playroom-shapes-print.svg",
-    "etsyUrl": "https://www.etsy.com/uk/shop/littlewallwondersuk",
     "featured": false
+  },
+  {
+    "id": "croc-flamingo-print",
+    "category": "prints",
+    "title": "Flamingo Riding Croc",
+    "description": "A flamingo riding a crocodile.",
+    "price": "From £12.00",
+    "image": "assets/products/print-croc-flamingo.png",
+    "etsyUrl": "https://www.etsy.com/uk/shop/littlewallwondersuk",
+    "featured": true
+  },
+  {
+    "id": "dog-ice-cream-print",
+    "category": "prints",
+    "title": "Cool Dog",
+    "description": "A cool dog enjoying an ice cream.",
+    "price": "From £12.00",
+    "image": "assets/products/print-dog-ice-cream.png",
+    "etsyUrl": "https://www.etsy.com/uk/shop/littlewallwondersuk",
+    "featured": true
   }
 ]
