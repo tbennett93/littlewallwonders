@@ -18,14 +18,16 @@ function productCard(product) {
   const url = product.etsyUrl || "https://www.etsy.com/uk/shop/littlewallwondersuk";
 
   return `
-    <article class="product-card">
+    <article class="product-card ${product.category}">
 
-		<img 
-		  class="${product.imageFit || "cover"}"
-		  src="${escapeHtml(product.image)}"
-		  alt="${escapeHtml(product.title)}"
-		  loading="lazy"
-		/>
+	<div class="image-frame ${product.category}">
+	  <img 
+		class="${product.imageFit || "cover"}"
+		src="${escapeHtml(product.image)}"
+		alt="${escapeHtml(product.title)}"
+		loading="lazy"
+	  />
+	</div>
       <div class="product-body">
         <span class="product-kicker">${categoryLabel}</span>
         <h3>${escapeHtml(product.title)}</h3>
