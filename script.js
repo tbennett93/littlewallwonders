@@ -19,7 +19,13 @@ function productCard(product) {
 
   return `
     <article class="product-card">
-      <img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.title)}" loading="lazy" />
+
+		<img 
+		  class="${product.imageFit || "cover"}"
+		  src="${escapeHtml(product.image)}"
+		  alt="${escapeHtml(product.title)}"
+		  loading="lazy"
+		/>
       <div class="product-body">
         <span class="product-kicker">${categoryLabel}</span>
         <h3>${escapeHtml(product.title)}</h3>

@@ -1,42 +1,57 @@
 [
   {
-    "id": "sticker-pack-1",
+    "id": "playful-decals",
     "category": "wall-decals",
-    "title": "Doodle Sticker Pack",
-    "description": "A bright peel-and-stick sticker pack for any wall.",
+    "title": "Bright & Playful",
+    "description": "A bright playful peel-and-stick sticker pack for any wall.",
     "price": "From £26.00",
-    "image": "assets/products/wall 1.png",
+    "image": "assets/products/playful.png",
     "etsyUrl": "https://www.etsy.com/uk/shop/littlewallwondersuk",
-    "featured": true
+    "featured": true,
+    "imageFit": "cover"
   },
   {
-    "id": "woodland-wall-set",
+    "id": "space-decals",
     "category": "wall-decals",
-    "title": "Woodland Wall Set",
-    "description": "Playful trees, stars and mushrooms for a colourful woodland wall without muted nursery grey.",
+    "title": "Blast off",
+    "description": "A space-themed decal pack that is out of this world.",
     "price": "From £16.00",
-    "image": "assets/products/woodland-wall-set.svg",
+    "image": "assets/products/space.png",
     "etsyUrl": "https://www.etsy.com/uk/shop/littlewallwondersuk",
-    "featured": false
+    "featured": true,
+    "imageFit": "cover"
   },
   {
-    "id": "croc-flamingo-print",
+    "id": "doodles-decals",
+    "category": "wall-decals",
+    "title": "Doodles and dots",
+    "description": "Dots and doodles to brighten up any room.",
+    "price": "From £16.00",
+    "image": "assets/products/doodles.png",
+    "etsyUrl": "https://www.etsy.com/uk/shop/littlewallwondersuk",
+    "featured": true,
+    "imageFit": "cover"
+  },
+  {
+    "id": "croc-cruise-print",
     "category": "prints",
     "title": "Crocodile Cruise",
     "description": "A warm and whimsical animal art print for little explorers.",
     "price": "From £12.00",
     "image": "assets/products/print-croc-flamingo.png",
     "etsyUrl": "https://www.etsy.com/uk/shop/littlewallwondersuk",
-    "featured": true
+    "featured": true,
+    "imageFit": "contain"
   },
   {
-    "id": "dog-ice-cream-print",
+    "id": "scoops-and-shades-print",
     "category": "prints",
     "title": "Scoops & Shades",
     "description": "A fun summer dog print full of sunshine and smiles.",
     "price": "From £12.00",
     "image": "assets/products/print-dog-ice-cream.png",
     "etsyUrl": "https://www.etsy.com/uk/shop/littlewallwondersuk",
-    "featured": true
+    "featured": true,
+    "imageFit": "contain"
   }
 ]
