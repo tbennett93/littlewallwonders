@@ -69,6 +69,7 @@ code {
   width: 220px;
 }
 
+
 .brand-logo {
   background-image: url("assets/logo/logo.png");
   background-position: center;
@@ -89,7 +90,7 @@ code {
 .header-cta,
 .site-footer a {
   font-size: 0.94rem;
-  font-weight: 800;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -493,7 +494,7 @@ h3 {
 }
 
 .product-card img {
-  background: var(--paper);
+  background: var(--sunny);
   display: block;
   object-fit: cover;
   width: 100%;
@@ -673,6 +674,11 @@ h3 {
   object-fit: contain;
 }
 
+
+
+.nav a.nav-highlight {
+  font-weight: 900;
+}
 
 @media (max-width: 1020px) {
   .site-header {
