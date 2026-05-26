@@ -54,7 +54,7 @@ code {
   display: flex;
   gap: 24px;
   justify-content: space-between;
-  padding: 14px clamp(18px, 4vw, 58px);
+  padding: 10px clamp(18px, 4vw, 58px);
   position: sticky;
   top: 0;
   z-index: 20;
@@ -74,7 +74,6 @@ code {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  display: block;
   height: 100%;
   width: 100%;
 }
@@ -108,6 +107,8 @@ code {
 
 .nav-group {
   position: relative;
+  display: flex;
+  align-items: center;  
 }
 
 .nav-panel {
@@ -227,10 +228,10 @@ h2 {
 }
 
 h3 {
-  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: clamp(2rem, 4vw, 4.7rem);
+  font-family: Inter;
+  font-size: clamp(2rem, 4vw, 2.5rem);
   font-weight: 800;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.05em;
 }
 
 .hero-copy p:not(.eyebrow),
@@ -454,8 +455,8 @@ h3 {
 
 .section,
 .page-hero {
-  padding-bottom: clamp(60px, 8vw, 112px);
-  padding-top: clamp(60px, 8vw, 12px);
+  padding-bottom: clamp(40px, 8vw, 100px);
+  padding-top: clamp(40px, 8vw, 100px);
 }
 
 .section-heading {
