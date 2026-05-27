@@ -13,6 +13,8 @@
   --line: rgba(37, 48, 68, 0.14);
   --shadow: 0 10px 5px rgba(37, 48, 68, 0.16);
   --radius: 30px;
+  --main-font: Inter;
+
 }
 
 * {
@@ -29,7 +31,7 @@ body {
     radial-gradient(circle at 92% 12%, rgba(114, 196, 189, 0.2), transparent 26rem),
     linear-gradient(180deg, #fffdf8, var(--paper));
   color: var(--ink);
-  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--main-font);
   line-height: 1.5;
   margin: 0;
   overflow-x: hidden;
@@ -202,7 +204,7 @@ code {
 
 .image-frame {
   padding: 20px;
-  background: var(--sunny);
+  /* background: var(--sunny); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -227,13 +229,13 @@ code {
 
 }
 
-.image-frame.wall-decals {
+/* .image-frame.wall-decals {
   background: var(--sunny);
-}
+} */
 
 .image-frame.prints {
   padding: 20px;
-  background: var(--sunny);
+  /* background: var(--sunny); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -248,7 +250,7 @@ h3 {
 
 h1 {
   color: var(--ink);
-  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--main-font);
   font-size: clamp(1.2rem, 3.2vw, 6.8rem);
   font-weight: 600;
   letter-spacing: -0.03em;
@@ -256,7 +258,7 @@ h1 {
 }
 
 .hero-title {
-  font-family: Inter;
+  font-family: var(--main-font);
   color: var(--ink);
   font-size: clamp(3.2rem, 6.2vw, 6.5rem);
   font-weight: 800;
@@ -265,14 +267,14 @@ h1 {
 }
 
 h2 {
-  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--main-font);
   font-size: clamp(2rem, 4vw, 4.7rem);
   font-weight: 900;
   letter-spacing: -0.025em;
 }
 
 h3 {
-  font-family: Inter;
+  font-family: var(--main-font);
   font-size: clamp(2rem, 4vw, 2.5rem);
   font-weight: 800;
   letter-spacing: -0.05em;
@@ -525,7 +527,7 @@ h3 {
   background: var(--surface);
   border: 3px solid var(--ink);
   border-radius: var(--radius);
-  box-shadow: 4px 4px 0 var(--ink);
+  box-shadow: 2px 2px 0 var(--ink);
   display: flex;
   flex-direction: column;
   min-width: 0;
@@ -533,11 +535,11 @@ h3 {
 }
 
 .product-card:nth-child(even) {
-  box-shadow: 4px 4px 0 var(--ink);
+  box-shadow: 2px 2px 0 var(--ink);
 }
 
 .product-card img {
-  background: var(--sunny);
+  /* background: var(--sunny); */
   display: block;
   object-fit: cover;
   width: 100%;
@@ -624,14 +626,14 @@ h3 {
   background: #fff;
   border: 3px solid var(--ink);
   border-radius: var(--radius);
-  box-shadow: 4px 4px 0 var(--ink);
+  box-shadow: 2px 2px 0 var(--ink);
   padding: clamp(24px, 4vw, 44px);
 }
 
 .shop-paths article:nth-child(3),
 .contact-grid article:nth-child(2),
 .decal-benefits article:nth-child(2) {
-  box-shadow: 4px 4px 0 var(--ink);
+  box-shadow: 2px 2px 0 var(--ink);
 }
 
 .page-hero {
@@ -745,7 +747,7 @@ h3 {
   background: var(--surface);
   border: 3px solid var(--ink);
   border-radius: var(--radius);
-  box-shadow: 4px 4px 0 var(--ink);
+  box-shadow: 2px 2px 0 var(--ink);
   padding: clamp(24px, 4vw, 38px);
 }
 
@@ -774,7 +776,7 @@ h3 {
   background: var(--surface);
   border: 3px solid var(--ink);
   border-radius: var(--radius);
-  box-shadow: 4px 4px 0 var(--ink);
+  box-shadow: 2px 2px 0 var(--ink);
   padding: clamp(24px, 4vw, 40px);
 }
 
