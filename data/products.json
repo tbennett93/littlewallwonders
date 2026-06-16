@@ -2,33 +2,33 @@
   {
     "id": "playful-decals",
     "category": "wall-decals",
-    "title": "Bright & Playful",
-    "description": "Colourful peel-and-stick decals full of fun and imagination.",
-    "price": "From £26.00",
-    "image": "assets/products/playful.png",
-    "etsyUrl": "https://www.etsy.com/uk/shop/littlewallwondersuk",
-    "featured": true,
-    "imageFit": "cover"
-  },
-  {
-    "id": "cosmic-adventures-decals",
-    "category": "wall-decals",
-    "title": "Cosmic Adventures",
-    "description": "Space-inspired decals for little dreamers and future explorers.",
-    "price": "From £16.00",
-    "image": "assets/products/Cosmic Adventures.png",
-    "etsyUrl": "https://www.etsy.com/uk/shop/littlewallwondersuk",
-    "featured": true,
-    "imageFit": "cover"
-  },
-  {
-    "id": "happy-doodles-decals",
-    "category": "wall-decals",
-    "title": "Happy Doodles",
+    "title": "Fun & Playful",
     "description": "Playful shapes and cheerful colours to brighten little spaces.",
-    "price": "From £16.00",
-    "image": "assets/products/happy doodles.png",
-    "etsyUrl": "https://www.etsy.com/uk/shop/littlewallwondersuk",
+    "price": "From £23.00",
+    "image": "assets/products/Fun and Playful.webp",
+    "etsyUrl": "https://www.etsy.com/uk/listing/4519165403",
+    "featured": true,
+    "imageFit": "cover"
+  },
+  {
+    "id": "farm-decals",
+    "category": "wall-decals",
+    "title": "At the Farm",
+    "description": "Farm-inspired decals for little explorers and big imaginations.",
+    "price": "From £23.00",
+    "image": "assets/products/At the Farm.webp",
+    "etsyUrl": "https://www.etsy.com/uk/listing/4519212655",
+    "featured": true,
+    "imageFit": "cover"
+  },
+  {
+    "id": "woodland-decals",
+    "category": "wall-decals",
+    "title": "Woodland Wonders",
+    "description": "Woodland-inspired decals for little ones who love nature and adventure.",
+    "price": "From £23.00",
+    "image": "assets/products/woodland.webp",
+    "etsyUrl": "https://www.etsy.com/uk/listing/4520758231",
     "featured": true,
     "imageFit": "cover"
   },
@@ -40,7 +40,7 @@
     "price": "From £12.00",
     "image": "assets/products/print-croc-flamingo.png",
     "etsyUrl": "https://www.etsy.com/uk/shop/littlewallwondersuk",
-    "featured": true,
+    "featured": false,
     "imageFit": "contain"
   },
   {
@@ -51,7 +51,7 @@
     "price": "From £12.00",
     "image": "assets/products/print-dog-ice-cream.png",
     "etsyUrl": "https://www.etsy.com/uk/shop/littlewallwondersuk",
-    "featured": true,
+    "featured": false,
     "imageFit": "contain"
   }
 ]

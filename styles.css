@@ -7,7 +7,7 @@
   --pink: #ffa1a7;
   --ink: #253044;
   --muted: #657084;
-  --paper: #fff9ef;
+  --paper: #fcf9f4;
   --sunny: #fff0bf;
   --surface: #ffffff;
   --line: rgba(37, 48, 68, 0.14);
@@ -27,8 +27,12 @@ html {
 
 body {
   background:
-    radial-gradient(circle at 8% 20%, rgba(255, 111, 97, 0.18), transparent 24rem),
-    radial-gradient(circle at 92% 12%, rgba(114, 196, 189, 0.2), transparent 26rem),
+    radial-gradient(circle at 0% 30%, rgba(255, 111, 97, 0.1), transparent 40rem),
+    radial-gradient(circle at 100% 20%, rgba(114, 196, 189, 0.1), transparent 30rem),
+    radial-gradient(circle at 0% 60%, rgba(255, 111, 97, 0.1), transparent 40rem),
+    radial-gradient(circle at 100% 50%, rgba(114, 196, 189, 0.05), transparent 30rem), 
+    radial-gradient(circle at 0% 90%, rgba(255, 111, 97, 0.1), transparent 40rem),
+    radial-gradient(circle at 100% 80%, rgba(114, 196, 189, 0.02), transparent 30rem),    
     linear-gradient(180deg, #fffdf8, var(--paper));
   color: var(--ink);
   font-family: var(--main-font);
@@ -223,7 +227,7 @@ code {
   width: 100%;
   object-fit: cover;
 
-  border: 1px solid var(--ink);
+  /* border: 1px solid var(--ink); */
   border-radius: 10px;
   box-shadow: 0 6px 14px rgba(37, 48, 68, 0.08);
 
